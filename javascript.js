@@ -116,17 +116,7 @@ let msgnom = document.getElementById("msgnom");
          }
       
          
-         if( prix.value.length == 0 || !prix.value.match(/^[0-9]*[.|,]+[0-9]$/)  )
-         { msgprix.innerHTML = " veuillez saisir votre prix correcte et number doit etre reel";
-           msgprix.style.color="red";
-           prix.style.borderColor="red";
-           compt++;
-              
-         }
-         else{
-          msgprix.innerHTML = " ";
-          prix.style.borderColor="rgb(227, 225, 225)";
-         } 
+ 
         
          if(date.value.length == 0)
          {
