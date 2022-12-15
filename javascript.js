@@ -9,7 +9,7 @@ let msgnom = document.getElementById("msgnom");
           
         class articl {
              constructor(nom,marque,prix,date,type){
-        this.nom=nom;
+        this.nom=nom;  
         this.marque=marque;
         this.prix=prix;
         this.date=date;
@@ -19,7 +19,7 @@ let msgnom = document.getElementById("msgnom");
     }
           detail() {
 
-            var show=document.getElementById("Detail");
+            var show=document.getElementById("Detail"); 
        
            
           
